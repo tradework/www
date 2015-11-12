@@ -21,6 +21,7 @@
       justify-content: space-around;
       align-items: stretch;
 
+      transform-origin: 50% 50%;
       transition: all 0.5s ease-in-out;
     }
 
@@ -30,8 +31,11 @@
 
     tradework trade,
     tradework work {
-      height: 100vh;
-      width: 200vw;
+      height: 500vh;
+      width: 100vw;
+
+      position: absolute;
+      bottom: -200%;
 
       display: flex;
       flex-direction: column;
@@ -71,7 +75,7 @@
     tradework work {
       align-items: flex-start;
 
-      left: 50%;
+      /*left: 100%;*/
 
       transform-origin: 0% 50%;
     }
